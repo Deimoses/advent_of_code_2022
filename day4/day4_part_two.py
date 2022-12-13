@@ -2,6 +2,7 @@ import re
 input = open("day4.txt","r")
 
 shifts = input.read()
+input.close()
 shifts = re.split(r',|\n|-',shifts)
 shift1 = shifts[0::2]
 shift2 = shifts[1::2]

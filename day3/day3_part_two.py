@@ -1,5 +1,6 @@
 input = open("day3.txt","r")
 lst = str(input.read())
+input.close()
 lst = lst.split("\n")
 match_in_word = ''
 match = []

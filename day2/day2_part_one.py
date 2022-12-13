@@ -1,7 +1,7 @@
 input = open("day2.txt","r")
 
 instructions = str(input.read())
-
+input.close()
 instructions = instructions.replace(" ","")
 instructions = instructions.replace("\n","")
 # instruction = "AXCZBY..."

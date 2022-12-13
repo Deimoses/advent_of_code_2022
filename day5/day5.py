@@ -2,7 +2,8 @@ import re
 input = open("day5.txt","r")
 
 instructions = str(input.read())
-#instructions = instructions.replace(" ","*")
+input.close()
+
 move_instructions = instructions.split("\n") and instructions.split('move', 1)[1]
 move_instructions = move_instructions.replace("move","")
 move_instructions = move_instructions.replace("to","")

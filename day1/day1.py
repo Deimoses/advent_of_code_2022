@@ -7,6 +7,7 @@ def spliter(a):
 
 input_list = spliter(str(input.read()))
 result = []
+input.close()
 
 for string in input_list:
     string_list = string.split("\n")

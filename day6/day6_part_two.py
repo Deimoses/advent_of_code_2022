@@ -1,6 +1,7 @@
 input = open("day6.txt","r")
 
 instructions = input.read()
+input.close()
 number = 0
 condition = True
 
